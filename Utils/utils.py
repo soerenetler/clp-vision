@@ -32,7 +32,7 @@ code_icorpus = invert_dict(icorpus_code)
 
 def print_timestamped_message(message, indent=0):
     now = datetime.datetime.now().strftime('%Y-%m-%d @ %H:%M:%S')
-    print ' ' * indent, '[ %s ] %s' % (now, message)
+    print(' ' * indent, '[ %s ] %s' % (now, message))
 
 
 def saiapr_basepath(image_id):
